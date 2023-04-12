@@ -227,7 +227,7 @@ export const content = {
       {
         text: "Keith Suniega",
         icon: BsFacebook,
-        link: "https://www.instagram.com/Kitchupoy/",
+        link: "https://www.facebook.com/Kitchupoy/",
       },
     ],
   },
