@@ -15,10 +15,22 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import proj_tsu1 from "./assets/images/projects/TSU1.png";
+import proj_tsu2 from "./assets/images/projects/TSU2.png";
+import proj_tsu3 from "./assets/images/projects/TSU3.png";
+import proj_magicezy1 from "./assets/images/projects/magicezy1.png";
+import proj_magicezy2 from "./assets/images/projects/magicezy2.png";
+import proj_magicezy3 from "./assets/images/projects/magicezy3.png";
+import proj_ramen1 from "./assets/images/projects/ramen1.png";
+import proj_ramen2 from "./assets/images/projects/ramen2.png";
+import proj_ramen3 from "./assets/images/projects/ramen3.png";
+import proj_football1 from "./assets/images/projects/football1.png";
+import proj_football2 from "./assets/images/projects/football2.png";
+import proj_football3 from "./assets/images/projects/football3.png";
+import proj_custom1 from "./assets/images/projects/custom1.png";
+import proj_custom2 from "./assets/images/projects/custom2.png";
+import proj_custom3 from "./assets/images/projects/custom3.png";
+import arrow from "./assets/images/projects/arrow.svg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -37,6 +49,8 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 export const content = {
   nav: [
@@ -85,47 +99,47 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "For designing and creating visually stunning websites.",
         logo: figma,
       },
       {
         name: "Wordpress",
-        para: "Lorem ipsum text  dummy",
+        para: "After designing, Wordpress can help to develop the home of your brand.",
         logo: wordpress,
       },
       {
         name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        para: "Creating eye-catching visuals for marketing and branding purposes.",
         logo: ps,
       },
       {
         name: "React",
-        para: "Lorem ipsum text  dummy",
+        para: "For more complex websites, coding effort is a must!",
         logo: reactjs,
       },
       {
         name: "Adobe Experience Manager",
-        para: "Lorem ipsum text  dummy",
+        para: "A Content Management System used to house your application.",
         logo: aem,
       },
       {
         name: "Divi",
-        para: "Lorem ipsum text  dummy",
+        para: "A plugin for Wordpress to create your website.",
         logo: divi,
       },
       {
         name: "Elementor",
-        para: "Lorem ipsum text  dummy",
+        para: "Much like Divi, Elementor is used to build your branding.",
         logo: elementor,
       },
       {
         name: "Sass",
-        para: "Lorem ipsum text  dummy",
+        para: "Advanced and cleaner form of writing CSS",
         logo: sass,
       },
       {
         name: "Git",
-        para: "Lorem ipsum text  dummy",
+        para: "A tool to house codes and other applications.",
         logo: git,
       },
     ],
@@ -155,20 +169,154 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "GALLERY",
-    image: person_project,
-    warning: "UNDER CONSTRUCTION",
+    toolsTitle: "Tools Used:",
+    buttonTitle: "Take A Look",
+    privateTitle: "Private Project",
+    buttonIcon: FaLongArrowAltRight,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "The Speed Up Co.",
+        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        proj_link: "https://thespeedupco.com/",
+        tools: [
+          {
+            image: wordpress
+          },
+          {
+            image: figma
+          },
+          {
+            image: divi
+          },
+          {
+            image: sass
+          },
+          {
+            image: ps
+          },
+        ],
+        project_image: [
+          {
+            image: proj_tsu1
+          },
+          {
+            image: proj_tsu2
+          },
+          {
+            image: proj_tsu3
+          },
+        ],
       },
       {
-        title: "Social Media web",
-        image: project2,
+        title: "Aspire Football Academy PH",
+        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        proj_link: "https://www.aspirefootballph.com/",
+        tools: [
+          {
+            image: wordpress
+          },
+          {
+            image: elementor
+          },
+          {
+            image: ps
+          },
+        ],
+        project_image: [
+          {
+            image: proj_football1
+          },
+          {
+            image: proj_football2
+          },
+          {
+            image: proj_football3
+          },
+        ],
       },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "Ramen Naijiro",
+        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        proj_link: "https://www.figma.com/proto/VmJmJpzvOslzPgtRZRRU4z/Ramen-Naijiro?node-id=1-2&scaling=min-zoom&page-id=0%3A1",
+        tools: [
+          {
+            image: figma
+          },
+          {
+            image: ps
+          },
+        ],
+        project_image: [
+          {
+            image: proj_ramen1
+          },
+          {
+            image: proj_ramen2
+          },
+          {
+            image: proj_ramen3
+          },
+        ],
+      },
+      {
+        title: "MagicEzy",
+        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        proj_link: "https://www.figma.com/proto/DKliEnOnjKml5DLE9ACrpW/MagicEzy.com?node-id=0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2",
+        tools: [
+          {
+            image: figma
+          },
+          {
+            image: wordpress
+          },
+          {
+            image: divi
+          },
+          {
+            image: ps
+          },
+        ],
+        project_image: [
+          {
+            image: proj_magicezy1
+          },
+          {
+            image: proj_magicezy2
+          },
+          {
+            image: proj_magicezy3
+          },
+        ],
+      },
+      {
+        title: "Tratek Asia, Inc.",
+        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        proj_link: "",
+        tools: [
+          {
+            image: reactjs
+          },
+          {
+            image: sass
+          },
+          {
+            image: figma
+          },
+          {
+            image: git
+          },
+        ],
+        project_image: [
+          {
+            image: proj_custom1
+          },
+          {
+            image: proj_custom2
+          },
+          {
+            image: proj_custom3
+          },
+        ],
       },
     ],
   },
@@ -228,6 +376,11 @@ export const content = {
         text: "Keith Suniega",
         icon: BsFacebook,
         link: "https://www.facebook.com/Kitchupoy/",
+      },
+      {
+        text: "Keith Suniega",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/keith-mitchell-suniega-a488801b6/",
       },
     ],
   },

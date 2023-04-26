@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
-  const { hero } = content;
+  const { hero, nav } = content;
 
   return (
     <section id="home" className="overflow-hidden">
@@ -17,14 +17,17 @@ const Hero = () => {
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
-
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
-          <h5 className="subtitle md:block hidden" data-aos="fade-down">{hero.slogan}</h5>
+          <h5 className="subtitle px-1 md:block hidden" data-aos="fade-down">{hero.slogan}</h5>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <button className="btn hover:bg-dark_tertiary duration-300 group">
+              <a className="font-Poppins text-dark_tertiary group-hover:text-white duration-300" href={nav[4].link} target="_self">
+                {hero.btnText}
+              </a>
+            </button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (

@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         dark_primary: "#06223F",
         bg_light_primary: "#F5F9FD",
+        dark_tertiary: "#163247",
         gray: "#B7C5D3",
       },
       backgroundImage: {

@@ -1,7 +1,7 @@
 import { content } from "../Content";
 
 const Hireme = () => {
-  const { Hireme } = content;
+  const { Hireme, nav } = content;
 
   return (
     <section className="bg-bg_light_primary">
@@ -33,8 +33,10 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
+            <button className="btn bg-dark_primary text-white hover:bg-white duration-300 group">
+              <a className="font-Poppins group-hover:text-dark_tertiary duration-300" href={nav[4].link} target="_self">
+                {Hireme.btnText}
+              </a>
             </button>
           </div>
         </div>
