@@ -29,7 +29,7 @@ const Projects = () => {
               clickable: true,
             }}
             spaceBetween={20}
-            modules={[Pagination]}
+            // modules={[Pagination]}
             className="pb-16 w-full justify-center self-start"
             effect="fade"
             fadeEffect={{
@@ -103,15 +103,15 @@ const Projects = () => {
                   </div>
                   <div className="gallery-image-container lg:w-1/2 w-full md:block hidden flex justify-center pl-[50px]">
                     <div className="gallery-image-wrapper flex">
-                      {content.project_image.map((image, j) => (
+                      {content.project_image.map((image, j, arr) => (
                         <div
                           key={j}
-                          className={`${j === 1 ? "z-10" : ""} hover:z-50`}
+                          className={`${j === 1 ? "z-10" : ""} ${arr.length === 1 ? "w-full" : ""} hover:z-50`}
                         >
                           <div
                             className={`
                           ${
-                            j === 0
+                            arr.length === 1 ? "image-center flex justify-center group cursor-pointer" : j === 0
                               ? "image-left group hover:z-50 cursor-pointer"
                               : j === 1
                               ? "image-center ml-[-90px] mt-[70px] group cursor-pointer"

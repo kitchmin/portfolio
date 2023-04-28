@@ -35,6 +35,7 @@ import proj_custom3 from "./assets/images/projects/custom3.png";
 import proj_davies1 from "./assets/images/projects/davies1.png";
 import proj_davies2 from "./assets/images/projects/davies2.png";
 import proj_davies3 from "./assets/images/projects/davies3.png";
+import proj_actech1 from "./assets/images/projects/actech1.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -355,6 +356,30 @@ export const content = {
           },
           {
             image: proj_davies2
+          },
+        ],
+      },
+      {
+        title: "AC Tech, Inc.",
+        content: "AC Tech, Inc is an established Electrical Engineering Services in the Philippines that are accredited by distinguised companies such as Meralco, PCA, PCAB, Dun & Bradstreet, etc. With over 50 years in the industry, they are consistently providing excellent services all over the Philippines.",
+        proj_link: "https://actech.com.ph/",
+        tools: [
+          {
+            image: php
+          },
+          {
+            image: js
+          },
+          {
+            image: sass
+          },
+          {
+            image: ps
+          },
+        ],
+        project_image: [
+          {
+            image: proj_actech1
           },
         ],
       },
