@@ -46,12 +46,12 @@ const Projects = () => {
                 <div className="gallery-container flex pt-4">
                   <div className="gallery-content lg:w-1/2 w-full">
                     <h2
-                      className="italic mb-6 pt-10 text-dark_tertiary"
+                      className="italic mb-6 pt-10 text-dark_tertiary w-[75%]"
                       data-aos="fade-down"
                     >
                       {content.title}
                     </h2>
-                    <p className="mb-6 w-[85%]" data-aos="fade-down">
+                    <p className="mb-6 w-[75%]" data-aos="fade-down">
                       {content.content}
                     </p>
                     <h5 className="font-bold text-lg" data-aos="fade-down">
@@ -101,7 +101,7 @@ const Projects = () => {
                   </button>
                     }
                   </div>
-                  <div className="gallery-image-container lg:w-1/2 w-full md:block hidden flex justify-center">
+                  <div className="gallery-image-container lg:w-1/2 w-full md:block hidden flex justify-center pl-[50px]">
                     <div className="gallery-image-wrapper flex">
                       {content.project_image.map((image, j) => (
                         <div

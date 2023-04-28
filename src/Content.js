@@ -10,6 +10,8 @@ import reactjs from "./assets/images/Skills/react.png";
 import wordpress from "./assets/images/Skills/wordpress.png";
 import git from "./assets/images/Skills/git.png";
 import sass from "./assets/images/Skills/sass.png";
+import js from "./assets/images/Skills/js.png";
+import php from "./assets/images/Skills/php.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -30,7 +32,9 @@ import proj_football3 from "./assets/images/projects/football3.png";
 import proj_custom1 from "./assets/images/projects/custom1.png";
 import proj_custom2 from "./assets/images/projects/custom2.png";
 import proj_custom3 from "./assets/images/projects/custom3.png";
-import arrow from "./assets/images/projects/arrow.svg";
+import proj_davies1 from "./assets/images/projects/davies1.png";
+import proj_davies2 from "./assets/images/projects/davies2.png";
+import proj_davies3 from "./assets/images/projects/davies3.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -176,7 +180,7 @@ export const content = {
     project_content: [
       {
         title: "The Speed Up Co.",
-        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        content: "The Speed Up Co. is a Digital Marketing Agency based in Australia. The CEO of the awesome brand is led by Becca Martin, a business-savy, creative and innovative leader. \n \n The Speed Up Co. bridges the way for VAs and clients to work together to create exciting output and projects!",
         proj_link: "https://thespeedupco.com/",
         tools: [
           {
@@ -209,7 +213,7 @@ export const content = {
       },
       {
         title: "Aspire Football Academy PH",
-        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        content: "A program that takes the youth’s focus away from winning, championships and glory by channeling their attention towards growth, development, making connections and pure enjoyment of the sport. \n \n The Aspire Family consists of alumni players and current players from the University of the Philippines Men’s and Women’s Football Teams.",
         proj_link: "https://www.aspirefootballph.com/",
         tools: [
           {
@@ -236,7 +240,7 @@ export const content = {
       },
       {
         title: "Ramen Naijiro",
-        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        content: "Ramen Naijiro is a local Japanese Cuisine Restaurant that specializes in various assortments of their flavorful Ramen. Their broth boasts only deep umami flavors which can only be produced by masterfully simmering authentic Japanese flavors slowly and meticulously. They have an open franchise and can be located all over Manila.",
         proj_link: "https://www.figma.com/proto/VmJmJpzvOslzPgtRZRRU4z/Ramen-Naijiro?node-id=1-2&scaling=min-zoom&page-id=0%3A1",
         tools: [
           {
@@ -260,7 +264,7 @@ export const content = {
       },
       {
         title: "MagicEzy",
-        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        content: "MagicEzy is an Australian Company that specializes in quick-fixes for surfaces such as walls, tables, countertops, etc. Their revolutionary hairline fix, is their most valuable product. They are a household name in Australia.",
         proj_link: "https://www.figma.com/proto/DKliEnOnjKml5DLE9ACrpW/MagicEzy.com?node-id=0-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2",
         tools: [
           {
@@ -290,7 +294,7 @@ export const content = {
       },
       {
         title: "Tratek Asia, Inc.",
-        content: "Tellus et maecenas egestas elit cras eu sed. Tempus ut eu sapien tristique amet risus. Aliquam tempor elementum enim erat nibh. In lobortis augue neque sed ac integer faucibus. Neque cursus malesuada enim ipsum faucibus.",
+        content: "Tratek Asia, Inc. is a vendor for a specific large Supermarket Industry in the Philippines. This specific project comprises of connecting various isolated local network spread all over the Philippines and connected via a single Application. This application is what we developed using the technologies below. Since this application is private and can only be viewed using a VPN, the URL cannot be provided as with the other projects.",
         proj_link: "",
         tools: [
           {
@@ -315,6 +319,42 @@ export const content = {
           },
           {
             image: proj_custom3
+          },
+        ],
+      },
+      {
+        title: "Davies Paints Philippines, Inc.",
+        content: "Davies Paints Philippines, is a Chemical and Paint manufacturer that is well-known in the Philippines. With it's Rival, Boysen Paints, they continue to dominate the Chemical and Paint Market with their collection of revolutionary and colorful Paints, that are not only stunning but also efficient and functional.",
+        proj_link: "https://daviespaints.com.ph/",
+        tools: [
+          {
+            image: wordpress
+          },
+          {
+            image: figma
+          },
+          {
+            image: sass
+          },
+          {
+            image: ps
+          },
+          {
+            image: js
+          },
+          {
+            image: php
+          },
+        ],
+        project_image: [
+          {
+            image: proj_davies3
+          },
+          {
+            image: proj_davies1
+          },
+          {
+            image: proj_davies2
           },
         ],
       },
